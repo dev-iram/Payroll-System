@@ -1,0 +1,26 @@
+
+/* BUTTON!!!!!!!!!!!!!!*/
+button.btn1{
+    color: #89CFF0;
+    font-size: 1em;
+    padding: .5em 1em;
+    border: solid 2px #89CFF0;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+button.btn1:hover {
+    background: #89CFF0;
+    color: #FFFFFF;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+

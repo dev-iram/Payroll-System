@@ -1,0 +1,7 @@
+Users:
+=====Administrator=====
+Username - ad
+Password - 123
+=====Tour Guide=====
+Username - tg
+Password - 123
