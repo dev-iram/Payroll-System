@@ -1,4 +1,5 @@
-# Howth-Tourism-Website-PHP work in progress atm come back later lol
+# Howth-Tourism-Website-PHP-Global-Tour-Operators
+work in progress atm come back later lol
 
 ![ATM Kiosk System (2)](https://user-images.githubusercontent.com/22479692/123785033-f5e22300-d8cf-11eb-8369-d56013139681.png)
 This is a project I created as per specifications in C&G Procedural programming module during the course of my FIT ICTAP Software Development apprenticeship.  
