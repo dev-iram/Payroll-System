@@ -1,7 +1,8 @@
 # Payroll-System-Global-Tour-Operators-PHP
 work in progress atm come back later lol
 
-![ATM Kiosk System (2)](https://user-images.githubusercontent.com/22479692/123785033-f5e22300-d8cf-11eb-8369-d56013139681.png)
+![ATM Kiosk System (4)](https://user-images.githubusercontent.com/22479692/123950672-d6b0c780-d99b-11eb-9b99-6ffc6e03438a.png)
+
 This is a project I created as per specifications in C&G Procedural programming module during the course of my FIT ICTAP Software Development apprenticeship.  
 In the case of this assignment, it consists of two projects.  The goal of this assignment is to reuse the intial website developed, and create additional features that allow for users to create bookings which can be assigned to tour guides, allow for tour guides to be able to run these tours based on their commission and generate a payroll. 
 
