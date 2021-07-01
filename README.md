@@ -4,11 +4,11 @@
 This is a project I created as per specifications in C&G Procedural programming module during the course of my FIT ICTAP Software Development apprenticeship.  
 In the case of this assignment, it consists of two projects.  The goal of this assignment is to reuse the intial website developed, and create additional features that allow for users to create bookings which can be assigned to tour guides, allow for tour guides to be able to run these tours based on their commission and generate a payroll. 
 
-✦ Programming Language; PHP, HTML, CSS, Bootstrap, SQL
-✦ Software Tools;
-  &nbsp;&nbsp;&nbsp;&nbsp;✧ Microsoft Visual Code: Used to create the website and edit files
-  &nbsp;&nbsp;&nbsp;&nbsp;✧ FileZilla: Used to host the server and website files
-  &nbsp;&nbsp;&nbsp;&nbsp;✧ Google Chrome: Used to view website and test
+✦ Programming Language; PHP, HTML, CSS, Bootstrap, SQL  
+✦ Software Tools;  
+  &nbsp;&nbsp;&nbsp;&nbsp;✧ Microsoft Visual Code: Used to create the website and edit files  
+  &nbsp;&nbsp;&nbsp;&nbsp;✧ FileZilla: Used to host the server and website files  
+  &nbsp;&nbsp;&nbsp;&nbsp;✧ Google Chrome: Used to view website and test  
     
 **This website is hosted at: http://iram.innovador-ie.com/index.html**
 
@@ -72,42 +72,48 @@ The project requirements and methods that Global Tour Operators would like to be
 
 ## Functionality  
   
-✦	The Howth website has already been developed and established by previous site developers. This will be re-used to add further functionality to the required system.
-✦	A user will be able to make a booking on the website. 
-✦	A booking reference will be generated after a booking has been created.
-✦	Tour guides and administrators will have a login page that requires valid credentials in order to access the backend of the system. 
-✦	Administrators will have access to a Tours section. They will be able to create, read, edit and update tours. 
-✦	Administrators will have access to a Tour Guides section. They will be able to create, read, edit and update tour guides. 
-✦	Administrators will have access to a Commissions section. They will be able to create, read, edit and update commissions. 
-✦	Administrators and Tour Guides will have access to a payroll section. Only the administrator will be able to modify payroll related details, and tour guides will only be able to view payslips. 
-✦	Administrators and Tour Guides will have access to a bookings section. Only the administrator will be able to modify, update and delete bookings, while the tour guide will be able to assign themselves a tour. 
-✦	Set up can only be accessed and modified by the administrator.
-✦	A navigation bar will be created for the backend of this Global Tour Operators page, that will feature a navigation bar at the top, with the option for a logout on the right. 
-✦	Tour guides to be able to see what they can expect in terms of pay
-✦	Administrator will be able to see how much money to transfer after the 25% tax allocation has been calculated for revenue services.
-✦	Database – A database will store all of this information – using Php My Admin on the server side.
+✦	The Howth website has already been developed and established by previous site developers. This will be re-used to add further functionality to the required system.  
+✦	A user will be able to make a booking on the website.   
+✦	A booking reference will be generated after a booking has been created.  
+✦	Tour guides and administrators will have a login page that requires valid credentials in order to access the backend of the system.   
+✦	Administrators will have access to a Tours section. They will be able to create, read, edit and update tours.   
+✦	Administrators will have access to a Tour Guides section. They will be able to create, read, edit and update tour guides.   
+✦	Administrators will have access to a Commissions section. They will be able to create, read, edit and update commissions.   
+✦	Administrators and Tour Guides will have access to a payroll section. Only the administrator will be able to modify payroll related details, and tour guides will only be able to view payslips.   
+✦	Administrators and Tour Guides will have access to a bookings section. Only the administrator will be able to modify, update and delete bookings, while the tour guide will be able to assign themselves a tour.   
+✦	Set up can only be accessed and modified by the administrator.  
+✦	A navigation bar will be created for the backend of this Global Tour Operators page, that will feature a navigation bar at the top, with the option for a logout on the right.   
+✦	Tour guides to be able to see what they can expect in terms of pay  
+✦	Administrator will be able to see how much money to transfer after the 25% tax allocation has been calculated for revenue services.  
+✦	Database – A database will store all of this information – using Php My Admin on the server side.  
 
 
-## Testing
-http://iram.innovador-ie.com/admin/index.php
+## Testing  
+http://iram.innovador-ie.com/admin/index.php  
 
-###Credentials
-**Admin User**
-  username: ad
-  password: 123
+### Credentials  
+  
+**Admin User**  
+  Username: ad  
+  Password: 123  
   
   
-  **Tour Guide User**
-  username: tg
-  password: 123
+  **Tour Guide User**  
+    
+  Username: tg  
+  Password: 123  
   
   
-  ###Generate Payroll
-  ✦ Login with either account  - admin or tour guide
-  ✦ Access the Global Tour Operators page successfully signed in
-  ✦ Click 'Payroll' on top Navigation Bar
-  ✦ Start date: 01/06/20 to 01/10/20
+  ### Generate Payroll  
+  http://iram.innovador-ie.com/admin/payroll.php 
+    
+  **Date Range**   
+    
+  Start Date: 01/06/20  
+  End Date:   01/10/20    
   
   If you are an admin, please select **Tour Guide Test** as *Tour Guide* from dropdown list
   
   
+  Additionally, bookings can be made here: http://iram.innovador-ie.com/bookings.php with any data. 
+
