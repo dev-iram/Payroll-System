@@ -8,6 +8,7 @@ In the case of this assignment, it consists of two projects.  The goal of this a
 ✦ Software Tools;  
   &nbsp;&nbsp;&nbsp;&nbsp;✧ Microsoft Visual Code: Used to create the website and edit files  
   &nbsp;&nbsp;&nbsp;&nbsp;✧ FileZilla: Used to host the server and website files  
+  &nbsp;&nbsp;&nbsp;&nbsp;✧ PhpMyAdmin: Used to run MySQL server and create database   
   &nbsp;&nbsp;&nbsp;&nbsp;✧ Google Chrome: Used to view website and test  
     
 **This website is hosted at: http://iram.innovador-ie.com/index.html**
@@ -17,20 +18,6 @@ In the case of this assignment, it consists of two projects.  The goal of this a
 You work as a software developer for a software company called Soft Ireland which is specialised in developing bespoken computer application using a variety of technologies available.  
 
 The project taken by the company is to create an application to process the payroll of the client. The document does not contain enough details about the application. Therefore, you have been asked to interview the client to gather the requirements of the application, and to produce a report highlighting the design specification of the solution in which should include, for example: diagram, inputs, outputs, and any other relevant information about the application.
-
-
-## Overview 
-✦ Howth Website - This website was initially developed as part of the Web Development module using HTML, CSS  
-✦ Global Tour Operators - The Howth website was reused as part of this specification, with the addition of PHP and adding additional features, such as:  
-  &nbsp;&nbsp;&nbsp;&nbsp;✧ 'Bookings' feature added to website  http://iram.innovador-ie.com/bookings.php   
-  &nbsp;&nbsp;&nbsp;&nbsp;✧ Allowing for users on the website to book a tour (Includes booking information, Tour selection and comments). When a booking has been made, the user is prompted with a booking reference for the booking made.   
-  &nbsp;&nbsp;&nbsp;&nbsp;✧ Backend Portal - Global Tour Operators for Staff/Tour operators to use (Staff Login button on Bookings page redirects you to portal)  
-  &nbsp;&nbsp;&nbsp;&nbsp;✧ Global Tour Operators Staff Login Page http://iram.innovador-ie.com/admin/index.php (Please see *Testing* for credentials)  
-✦ FAQ's button - available on each page in the Global Tour Operators portal  
-✦ GTO portal - allows for the management of tour operators, tours, surchagres, tour guides, bookings made, commission, payroll, users, etc.  
-✦ 2 type of users available for the portal - admin and tourguide  
-✦ Admin has unrestricted access to manage the portal  
-✦ Tourguide has limited access  
 
 ## Purpose  
 ✦ The purpose and scope of this project involves the creation of a payroll system to manage external tour guides on behalf of Global Tour Operators. We will produce a piece of software that will allow tour guides and administrators of Global Tour Operators to be able to login to the system to carry out a variety of different tasks. There will be different access functionality in the system based on the role of the user.  
@@ -52,22 +39,23 @@ This system will be integrated from the already established and produced Howth w
 ## Project Requirements  
   
 The project requirements and methods that Global Tour Operators would like to be featured within the scope of this system includes:  
-✦	**Tour Bookings** – allow the general public to access the Howth website and a section created within the website that will allow for bookings to be created. Allow end-users to be able to book a tour by providing their information, such as their name, contact number and email address, and selecting a tour, date of the tour and number of people they would like on the tour.   
+  
+✦	**Tour Bookings** – allow the general public to access the Howth website and a section created within the website that will allow for bookings to be created. Allow end-users to be able to book a tour by providing their information, such as their name, contact number and email address, and selecting a tour, date of the tour and number of people they would like on the tour.   http://iram.innovador-ie.com/bookings.php  
 ✦	**Booking Reference** – Issue a booking reference after a user has submitted a booking  
 ✦	Storing the data Tour Bookings – store this data in the backend of the system, that will only allow administrators and tour guides to be able to access. Administrators will be able to create, read, update and delete bookings while tour guides will only be able to read and assign tours to themselves.  
-✦	**Login System** – Allows tour guides and administrators with credentials to be able to access the payroll system. Functionality depends on the role of the user logged in. 
-✦	**Tours** – Only to be accessed by administrator. Allows admin to create, read, update and delete tours. (CRUD)  
+✦	**Login System** – Allows tour guides and administrators with credentials to be able to access the payroll system. Functionality depends on the role of the user logged in.  http://iram.innovador-ie.com/admin/index.php  
+✦	**Tours** – Only to be accessed by administrator. Allows admin to create, read, update and delete tours. (CRUD)   
 ✦	**Commissions** - Only to be accessed by administrator. Allows admin to create, read, update and delete commissions. (CRUD)  
 ✦	**Tour Guides** - Only to be accessed by administrator. Allows admin to create, read, update and delete tour guides. (CRUD)  
-✦	**Bookings** – to be accessed by both tour guides and administrator. Bookings that have been created by the website’s end-user will go here, the tour guide will be able to assign a tour to themselves. The administrator will be able to create, read, update and delete bookings. (CRUD)
+✦	**Bookings** – to be accessed by both tour guides and administrator. Bookings that have been created by the website’s end-user will go here, the tour guide will be able to assign a tour to themselves. The administrator will be able to create, read, update and delete bookings. (CRUD)  
 ✦	**Bookings** – When a tour is done, the tour guide/admin will click a completed status  
-✦	**Payroll** – Only to be accessed by administrator. Allows admin to create, read, update and delete commissions. (CRUD)  
+✦	**Payroll** – Only to be accessed by administrator. Allows admin to create, read, update and delete commissions. (CRUD)   
 ✦	**System** - requires all tours completed by the tour guide, based on their experience it will assign a commission to the cost of the tours, and based on the amount of people that have been on the tour.  
 ✦	**Setup** – Only to be accessed by administrator.  
 ✦	**Navigation bar** – payroll system to have navigation menu on the top, with the option for logout on the right.  
 ✦	Tour guides to be able to see what they can expect in terms of pay  
 ✦	Administrator to be able to see how much money to transfer after the 25% tax allocation has been calculated for revenue services.  
-✦	**Database** – A database to store all of this information – using Php My Admin on the server side.  
+✦	**Database** – A database to store all of this information – using Php My Admin on the server side.   
 
 
 ## Functionality  
@@ -99,7 +87,6 @@ http://iram.innovador-ie.com/admin/index.php
   
   
   **Tour Guide User**  
-    
   Username: tg  
   Password: 123  
   
@@ -108,7 +95,6 @@ http://iram.innovador-ie.com/admin/index.php
   http://iram.innovador-ie.com/admin/payroll.php 
     
   **Date Range**   
-    
   Start Date: 01/06/20  
   End Date:   01/10/20    
   
