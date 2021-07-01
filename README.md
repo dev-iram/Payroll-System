@@ -102,4 +102,6 @@ http://iram.innovador-ie.com/admin/index.php
   
   
   Additionally, bookings can be made here: http://iram.innovador-ie.com/bookings.php with any data. 
+  
+  Please visit FAQ's page if you have any additional issues! http://iram.innovador-ie.com/admin/faqs.html
 
