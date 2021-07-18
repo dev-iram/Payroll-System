@@ -1,4 +1,4 @@
-# Payroll-System-Global-Tour-Operators-PHP
+# Payroll System, Global-Tour-Operators
 ![ATM Kiosk System (4)](https://user-images.githubusercontent.com/22479692/123950672-d6b0c780-d99b-11eb-9b99-6ffc6e03438a.png)
 
 This is a project I created as per specifications in C&G Procedural programming module during the course of my FIT ICTAP Software Development apprenticeship.  
